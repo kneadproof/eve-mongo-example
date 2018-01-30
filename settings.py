@@ -1,11 +1,11 @@
 import os
 
-MONGO_HOST     = os.environ.get("MONGO_HOST",        "localhost")
-MONGO_PORT     = os.environ.get("MONGO_PORT",              27017)
-MONGO_USERNAME = os.environ.get("MONGO_USERNAME",           None)
-MONGO_PASSWORD = os.environ.get("MONGO_PASSWORD",           None)
-MONGO_DBNAME   = os.environ.get("MONGO_DBNAME",             None)
-SERVER_NAME    = os.environ.get("SERVER_NAME",              None)
+MONGO_HOST     = os.environ.get("MONGO_HOST",     "localhost")
+MONGO_PORT     = os.environ.get("MONGO_PORT",           27017)
+MONGO_USERNAME = os.environ.get("MONGO_USERNAME",        None)
+MONGO_PASSWORD = os.environ.get("MONGO_PASSWORD",        None)
+MONGO_DBNAME   = os.environ.get("MONGO_DBNAME",          None)
+SERVER_NAME    = os.environ.get("SERVER_NAME",           None)
 
 RESOURCE_METHODS = ['GET', 'POST',  'DELETE'       ]
 ITEM_METHODS     = ['GET', 'PATCH', 'DELETE', 'PUT']
